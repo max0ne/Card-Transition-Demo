@@ -1,6 +1,8 @@
 # Card Transition Demo
 Demos a UIViewController transition using custom animation and interactions
 
+![demo.gif](./MISC/demo.gif)
+
 ## Run it
 1. Install dependency
 ```
