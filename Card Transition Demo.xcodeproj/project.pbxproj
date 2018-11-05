@@ -7,29 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		503F7D74218FC9CA0032D323 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 503F7D73218FC9CA0032D323 /* AppDelegate.m */; };
-		503F7D77218FC9CA0032D323 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 503F7D76218FC9CA0032D323 /* ViewController.m */; };
 		503F7D7C218FC9CD0032D323 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 503F7D7B218FC9CD0032D323 /* Assets.xcassets */; };
 		503F7D7F218FC9CD0032D323 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 503F7D7D218FC9CD0032D323 /* LaunchScreen.storyboard */; };
-		503F7D82218FC9CD0032D323 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 503F7D81218FC9CD0032D323 /* main.m */; };
-		503F7D92218FCCB40032D323 /* KAKAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 503F7D91218FCCB40032D323 /* KAKAnimation.m */; };
-		69033C6C7FDFF3A4B448318B /* libPods-Card Transition Demo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DDCDF669B7DBCD5E6F0CE4D /* libPods-Card Transition Demo.a */; };
+		503F7D96218FCDDD0032D323 /* KAKAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 503F7D95218FCDDD0032D323 /* KAKAnimation.swift */; };
+		503F7D98218FD60D0032D323 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 503F7D97218FD60D0032D323 /* ViewController.swift */; };
+		503F7D9A218FDAD70032D323 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 503F7D99218FDAD70032D323 /* AppDelegate.swift */; };
+		9A11752EBD8A9CA459F195B2 /* Pods_Card_Transition_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78574DCA3167B61AB4665750 /* Pods_Card_Transition_Demo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		503F7D6F218FC9CA0032D323 /* Card Transition Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Card Transition Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		503F7D72218FC9CA0032D323 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		503F7D73218FC9CA0032D323 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		503F7D75218FC9CA0032D323 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		503F7D76218FC9CA0032D323 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		503F7D7B218FC9CD0032D323 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		503F7D7E218FC9CD0032D323 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		503F7D80218FC9CD0032D323 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		503F7D81218FC9CD0032D323 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		503F7D90218FCCB40032D323 /* KAKAnimation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KAKAnimation.h; sourceTree = "<group>"; };
-		503F7D91218FCCB40032D323 /* KAKAnimation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KAKAnimation.m; sourceTree = "<group>"; };
-		5DDCDF669B7DBCD5E6F0CE4D /* libPods-Card Transition Demo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Card Transition Demo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		503F7D94218FCDDC0032D323 /* Card Transition Demo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Card Transition Demo-Bridging-Header.h"; sourceTree = "<group>"; };
+		503F7D95218FCDDD0032D323 /* KAKAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KAKAnimation.swift; sourceTree = "<group>"; };
+		503F7D97218FD60D0032D323 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		503F7D99218FDAD70032D323 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6A953858C13C85738016ECC1 /* Pods-Card Transition Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Card Transition Demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-Card Transition Demo/Pods-Card Transition Demo.release.xcconfig"; sourceTree = "<group>"; };
+		78574DCA3167B61AB4665750 /* Pods_Card_Transition_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Card_Transition_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDF8170174B9101319C910BD /* Pods-Card Transition Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Card Transition Demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Card Transition Demo/Pods-Card Transition Demo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -38,7 +34,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				69033C6C7FDFF3A4B448318B /* libPods-Card Transition Demo.a in Frameworks */,
+				9A11752EBD8A9CA459F195B2 /* Pods_Card_Transition_Demo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,12 +72,11 @@
 		503F7D8D218FCA280032D323 /* MISC */ = {
 			isa = PBXGroup;
 			children = (
-				503F7D72218FC9CA0032D323 /* AppDelegate.h */,
-				503F7D73218FC9CA0032D323 /* AppDelegate.m */,
+				503F7D94218FCDDC0032D323 /* Card Transition Demo-Bridging-Header.h */,
 				503F7D7B218FC9CD0032D323 /* Assets.xcassets */,
 				503F7D7D218FC9CD0032D323 /* LaunchScreen.storyboard */,
 				503F7D80218FC9CD0032D323 /* Info.plist */,
-				503F7D81218FC9CD0032D323 /* main.m */,
+				503F7D99218FDAD70032D323 /* AppDelegate.swift */,
 			);
 			path = MISC;
 			sourceTree = "<group>";
@@ -89,8 +84,7 @@
 		503F7D8E218FCA310032D323 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				503F7D75218FC9CA0032D323 /* ViewController.h */,
-				503F7D76218FC9CA0032D323 /* ViewController.m */,
+				503F7D97218FD60D0032D323 /* ViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -98,8 +92,7 @@
 		503F7D8F218FCA360032D323 /* Animation */ = {
 			isa = PBXGroup;
 			children = (
-				503F7D90218FCCB40032D323 /* KAKAnimation.h */,
-				503F7D91218FCCB40032D323 /* KAKAnimation.m */,
+				503F7D95218FCDDD0032D323 /* KAKAnimation.swift */,
 			);
 			path = Animation;
 			sourceTree = "<group>";
@@ -116,7 +109,7 @@
 		83C5DE32CF460BB130D2BBC3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				5DDCDF669B7DBCD5E6F0CE4D /* libPods-Card Transition Demo.a */,
+				78574DCA3167B61AB4665750 /* Pods_Card_Transition_Demo.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -132,6 +125,7 @@
 				503F7D6B218FC9CA0032D323 /* Sources */,
 				503F7D6C218FC9CA0032D323 /* Frameworks */,
 				503F7D6D218FC9CA0032D323 /* Resources */,
+				C33117AA23CE9F87039DC60D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -153,6 +147,7 @@
 				TargetAttributes = {
 					503F7D6E218FC9CA0032D323 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 					};
 				};
 			};
@@ -209,6 +204,28 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		C33117AA23CE9F87039DC60D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Card Transition Demo/Pods-Card Transition Demo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/YYKit/YYKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Card Transition Demo/Pods-Card Transition Demo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -216,10 +233,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				503F7D92218FCCB40032D323 /* KAKAnimation.m in Sources */,
-				503F7D77218FC9CA0032D323 /* ViewController.m in Sources */,
-				503F7D82218FC9CD0032D323 /* main.m in Sources */,
-				503F7D74218FC9CA0032D323 /* AppDelegate.m in Sources */,
+				503F7D98218FD60D0032D323 /* ViewController.swift in Sources */,
+				503F7D9A218FDAD70032D323 /* AppDelegate.swift in Sources */,
+				503F7D96218FCDDD0032D323 /* KAKAnimation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -354,6 +370,7 @@
 			baseConfigurationReference = DDF8170174B9101319C910BD /* Pods-Card Transition Demo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = X49F69GFN5;
 				INFOPLIST_FILE = "$(SRCROOT)/Card Transition Demo/MISC/Info.plist";
@@ -363,6 +380,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Mingfei-Huang.Card-Transition-Demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Card Transition Demo/MISC/Card Transition Demo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -372,6 +392,7 @@
 			baseConfigurationReference = 6A953858C13C85738016ECC1 /* Pods-Card Transition Demo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = X49F69GFN5;
 				INFOPLIST_FILE = "$(SRCROOT)/Card Transition Demo/MISC/Info.plist";
@@ -381,6 +402,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Mingfei-Huang.Card-Transition-Demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Card Transition Demo/MISC/Card Transition Demo-Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
