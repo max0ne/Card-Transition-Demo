@@ -259,4 +259,4 @@ pip-selfcheck.json
 # End of https://www.gitignore.io/api/python
 
 /Pods/
-/Card Transition Demo.xcworkspace/xcuserdata/
+/Card Transition Demo.xcworkspace/xcuserdata
