@@ -62,7 +62,7 @@
     self.triggerView.frame = [containerView convertRect:self.triggerViewFrame toView:self.triggerView.superview];
     
     // do present animation
-    [UIView animateWithDuration:[self transitionDuration:context] animations:^{
+    [UIView animateWithDuration:[self transitionDuration:context] delay:0 usingSpringWithDamping:0.7 initialSpringVelocity:0 options:UIViewAnimationOptionCurveEaseInOut animations:^{
         toView.frame = [context finalFrameForViewController:toViewController];
         [self.presentedViewController performPresentAnimation:self.triggerView];
     } completion:^(BOOL finished) {

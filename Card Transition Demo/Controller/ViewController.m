@@ -38,7 +38,6 @@
     
     UIImageView *cardView = [UIImageView new];
     [cardView setImageWithURL:[NSURL URLWithString:imageUrl] options:YYWebImageOptionRefreshImageCache];
-    [cardView setImageURL:[NSURL URLWithString:imageUrl]];
     cardView.width = cardView.height = 200;
     cardView.contentMode = UIViewContentModeScaleAspectFill;
     cardView.layer.cornerRadius = 8;
@@ -117,7 +116,8 @@
         if (percentage > 0) {
             [self.anime dismissInteractively:YES];
         } else {
-            [gesture cancelsTouchesInView];
+            gesture.enabled = NO;
+            gesture.enabled = YES;
         }
     } else if (gesture.state == UIGestureRecognizerStateChanged) {
         [self.anime updateInteractiveTransition:percentage];
