@@ -19,5 +19,5 @@ open 'Card Transition Demo.xcworkspace'
 ## Objective-C vs Swift
 Code is written in both Objective-C and Swift 4
 `master` branch hosts Objective-C version
-`swift` branch hosts Swift version
+[`swift` branch](https://github.com/max0ne/Card-Transition-Demo/tree/swift) hosts Swift version
 The code is written in Objective-C and ported to Swift
