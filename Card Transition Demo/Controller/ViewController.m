@@ -8,11 +8,11 @@
 
 #import "ViewController.h"
 
-@interface ViewController ()
+@interface ListVC ()
 
 @end
 
-@implementation ViewController
+@implementation ListVC
 
 - (void)viewDidLoad {
     [super viewDidLoad];
